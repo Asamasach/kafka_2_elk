@@ -1,3 +1,4 @@
 datetime
 elasticsearch
 kafka-python
+unittest2

@@ -26,7 +26,7 @@ and for permanent soultion, change the setting in `/etc/sysctl.conf`
             "timestamp" : { "type" : "date" } 
         } 
     } 
-}` \
+}` 
 
 5. for testing the data line, run python_test_producer.py, which create 10 random json object by using `python3 python_test_producer.py`
 

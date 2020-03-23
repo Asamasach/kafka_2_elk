@@ -1,4 +1,4 @@
-# deliver json objects from kafka to elasticsearch using python
+# dDeliver json objects from kafka to elasticsearch using python
 ---
 1. clone the repository in your desire folder using `git clone https://github.com/Asamasach/kafka_2_elk.git` (install git beforehand)
 2. be sure that, map memory size in host machine is set to your desire value, for instance running below command as root user, can temproraley increase mmapfs for it: `sysctl -w vm.max_map_count=262145`

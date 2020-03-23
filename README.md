@@ -14,18 +14,18 @@ and for permanent soultion, change the setting in `/etc/sysctl.conf`
     - kafka to elasticsearch deliver python container
     
 4. inside elasticsearch create an index by using development tools as below, and then press run key: \
-`PUT /asamasach \
-{ \
-    "settings" : { \
-        "number_of_shards" : 2 \
-        , "number_of_replicas": 2 \
-    }, \
-    "mappings" : { \
-        "properties" : { \
-            "person" : { "type" : "object" }, \
-            "timestamp" : { "type" : "date" } \
-        } \
-    } \
+`PUT /asamasach 
+{ 
+    "settings" : { 
+        "number_of_shards" : 2 
+        , "number_of_replicas": 2 
+    }, 
+    "mappings" : { 
+        "properties" : { 
+            "person" : { "type" : "object" }, 
+            "timestamp" : { "type" : "date" } 
+        } 
+    } 
 }` \
 
 5. for testing the data line, run python_test_producer.py, which create 10 random json object by using `python3 python_test_producer.py`
